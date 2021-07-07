@@ -245,7 +245,7 @@ function appendCityItem(event){
         
     }
     //couldn't figure out how to get the buttons to click
-    $(".inputField").on("click", function() {
+   /* $(".inputField").on("click", function() {
         var button = $(".boom");
         alert(button.text());
-    });
+    });*/
