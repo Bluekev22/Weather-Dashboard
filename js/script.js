@@ -64,7 +64,7 @@ function appendCityItem(event){
                 var lon = results[i].geometry.location.lng;
                
                 //calls the weather info for the coordinates
-                var requestWeatherURL = "http://api.openweathermap.org/data/2.5/onecall?" + "lat=" + lat + "&lon=" + lon + "&exclude=minutely,hourly,alerts&units=imperial&appid=" + weatherAPIKey;
+                var requestWeatherURL = "https://api.openweathermap.org/data/2.5/onecall?" + "lat=" + lat + "&lon=" + lon + "&exclude=minutely,hourly,alerts&units=imperial&appid=" + weatherAPIKey;
         
                 fetch(requestWeatherURL)
                 .then(function (response) {
